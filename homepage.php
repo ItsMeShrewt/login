@@ -1,4 +1,4 @@
-<a?php
+<h1?php
 session_start();
 include("connect.php");
 ?>
@@ -17,7 +17,7 @@ include("connect.php");
 </head>
 <body>
     <header>
-        <a href="#" class="logo">TutorSpot</a>
+        <a href="homepage.php" class="logo">TutorSpot</a>
         <form>
             <div class="search">
                 <span class="srch-icon material-symbols-outlined">search</span>
@@ -25,20 +25,27 @@ include("connect.php");
             </div>
         </form>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="homepage.php">Home</a></li>
             <li>
-                <a href="#account">My Account</a>
+                <a href="account.html">My Account</a>
                 <ul class="dropdown">
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#">Message</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">History</a></li>
+                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="message.html">Message</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="history.html">History</a></li>
                 </ul>
             </li>
-            <li><a href="#tutors">For Tutors</a></li>
+            <li><a href="tutors.html">For Tutors</a></li>
             <button class="out"><a href="logout.php">Logout</a></button>
         </ul>
     </header>
+
+    <section id="#home">
+        <h1>Welcome to TutorSpot</h1>
+        <p style="color: #333333;">
+            <b style="color: cadetblue;">TutorSpot</b> is your go-to platform for connecting with qualified tutors who can help enhance your child's learning experience.<br>Whether you're looking for assistance in a specific subject or need a tutor<br>who matches your child's learning style, TutorSpot makes it easy to find and book the right tutor.
+        </p>
+    </section>
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

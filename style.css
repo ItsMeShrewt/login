@@ -110,6 +110,10 @@ ul li:hover ul.dropdown {
   background: antiquewhite;
 }
 
+ul li a.active {
+  color: cadetblue;
+}
+
 button a {
   text-decoration: none;
   color: cadetblue;
@@ -120,8 +124,8 @@ button a {
 .out {
   width: 80px;
   height: 50px;
-  background: transparent;
-  border: 2px solid #f6f6f6;
+  background: #f6f6f6;
+  border: 2px solid antiquewhite;
   outline: none;
   border-radius: 20px;
   cursor: pointer;
@@ -133,10 +137,29 @@ button a {
 }
 
 .out:hover {
-  background: #f6f6f6;
+  background: rgba(246, 221, 189, 0.926);
   color: cadetblue;
 }
 
+/* --- SECTION --- */
+
+section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  font-size: 50px;
+  color: cadetblue;
+  font-weight: 400;
+}
+
+section p {
+  text-align: center;
+  font-size: 16px;
+}
 /* --- LOGIN PAGE --- */
 
 .container {
@@ -147,7 +170,7 @@ button a {
   overflow: hidden;
   width: 768px;
   max-width: 100%;
-  min-height: 480px;
+  min-height: 520px;
 }
 
 .container p {
