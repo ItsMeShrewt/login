@@ -29,7 +29,7 @@
             <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
             <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
           </div>
-          <span>or use email for registeration</span>
+          <span>or use email for registration</span>
           <input type="text" name="fName" id="fName" placeholder="First Name" required />
           <input type="text" name="lName" id="lname" placeholder="Last Name" required />
           <input type="text" name="email" id="email" placeholder="Email" required />

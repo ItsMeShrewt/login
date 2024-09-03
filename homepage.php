@@ -1,4 +1,4 @@
-<h1?php
+<?php
 session_start();
 include("connect.php");
 ?>
