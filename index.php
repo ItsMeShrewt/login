@@ -56,14 +56,14 @@
       <div class="toogle-container">
         <div class="toogle">
           <div class="toogle-panel toogle-left">
-            <h1>Welcome to <h1 style="color: cadetblue;">TutorSpot!</h1></h1>
-            <p><b>Where you can hire a Tutor for your kid</b></p>
+            <h1 style="color: cadetblue;">ReaЯ!</h1>
+            <p><b>Welcome to your safe space.</b></p>
             <p>If you already have an account</p>
             <button class="hidden" id="login">Sign In</button>
           </div>
           <div class="toogle-panel toogle-right">
-          <h1>Welcome to <h1 style="color: cadetblue;">TutorSpot!</h1></h1>
-            <p><b>Where you can hire a Tutor for your kid</b></p>
+          <h1 style="color: cadetblue;">ReaЯ!</h1>
+            <p><b>Welcome to your safe space.</b></p>
             <p>If you don't have an account</p>
             <button class="hidden" id="register">Sign Up</button>
           </div>
